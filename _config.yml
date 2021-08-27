@@ -62,5 +62,5 @@ ignore: null
 theme: next
 deploy:
   type: git
-  repo: https://github.com/Shawley-xiao/Shawley-xiao.github.io.git
+  repo: https://github.com/Shawley-xiao/Shawley-xiao.github.io
   branch: gh-pages
