@@ -16,19 +16,19 @@ language: node_js
 
 # Every once in a while this should be bumped up
 # https://docs.travis-ci.com/user/languages/javascript-with-nodejs#Choosing-Node-versions-to-test-against
-node_js:
-- "16"
+node_js: stable
 
 # Only create a new version on pushes to certain branches.
 branches:
   only:
-  - master
+  - source
 
 before_install:
-- npm install -g hexo
+- npm install -g hexo-cli
 
 install:
 - npm install
+- npm install hexo-deployer-git --save
 
 # Notice: Replace 'YOUR NAME' and 'YOUR EMAIL'
 before_script:
