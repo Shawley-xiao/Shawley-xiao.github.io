@@ -28,7 +28,6 @@ before_install:
 
 install:
 - npm install
-- npm install hexo-deployer-git --save
 
 # Notice: Replace 'YOUR NAME' and 'YOUR EMAIL'
 before_script:
