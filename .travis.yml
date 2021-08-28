@@ -38,6 +38,7 @@ before_script:
 
 # Maybe add minification scripts here
 script:
+- git clone https://github.com/theme-next/hexo-theme-next themes/next
 - hexo generate
 
 after_success:
